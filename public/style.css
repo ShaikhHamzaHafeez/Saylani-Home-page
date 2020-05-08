@@ -1,0 +1,400 @@
+.header{
+    background-color:royalblue;
+    width: 100%;
+    height: 70px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
+
+img.SS{
+    position: relative;
+    top: -50px;
+    left: -250px;
+    justify-content: space-around;
+    margin: 5px;
+    
+
+}
+
+/* button.donate{
+    position: relative;
+    top: -50px;
+    left: 650px;
+    border: green 1px solid;
+    
+    
+
+} */
+
+.nav{
+    position: relative;
+    top: -60px;
+   left: 280px;
+    border: green  1px solid;
+
+}
+
+.second{
+    background-color: white;
+
+}
+
+img.logo{
+    position: relative;
+    top: 10px;
+    left: -380px;
+
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 1em;
+    margin: 10px auto;
+}
+select{
+    border: none;
+}
+
+div.line{
+    background-color: royalblue;
+    width: 100%;
+    height: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: small;
+    padding: 2.5px;
+    margin: 10px auto;
+   
+}
+
+div{
+    text-align: center;
+    /* padding: 20px;
+    margin: 10px auto; */
+
+
+}
+p.para{
+    text-align:left ;
+    padding:50px ;
+    margin: 20px auto;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+
+}
+
+
+
+
+h1{
+    color: royalblue;
+}
+.duction{
+    color: green;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+   
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+ }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  div.info{
+      background-color: rgb(51, 64, 248);
+      
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 75px;
+      flex-wrap: wrap;
+      margin: auto;
+      
+  }
+
+  .food{
+      margin: 20px 20px 20px 20px;
+  }
+  
+  h1.white{
+      color: white;
+  }
+  
+  .color{
+      color:#0f0!important;
+    
+  }
+  p.white{
+      color: white;
+  }
+
+
+  #box{
+      background-color: rgb(245, 245,245);
+  }
+
+  div.firstbox{ 
+      border: 1px solid white;
+    box-shadow: gray;
+   
+    
+  }
+
+  
+
+  div.firstbox{
+    background-color: transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 20px  rgba(0, 0,0, 0.16) ;
+    text-align: center;
+    padding:35px ;
+    margin-bottom:30px ;
+    width: 30%;
+    line-height: 1.8em;
+   
+   
+
+
+  }
+
+  h4.name{
+      font-size: 18px;
+      color: #337ab7;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  div.box{
+      margin-left: -15px;
+      margin-right: -15px;
+      display: block;
+     
+  }
+
+  div.minilogo{
+      color: green;
+
+
+
+}
+
+h3.mission{
+   font-size: 24px;
+   padding-bottom:10px ;
+  font-weight: 700px;
+  color: #316dc3;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 40px;
+  
+
+}
+
+div.four{
+     display: flex; 
+    align-items: flex-start; 
+    margin: -10px 0px 20px -20px;
+   
+   
+   
+     border-image: initial; 
+
+    
+}
+
+
+div.five{
+    /* box-sizing: border-box;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(224, 224, 224);
+    margin: -20px 25px 40px 10px;
+     padding: 18px 0px 18px 15px; 
+     background-color: rgb(245, 245, 245);
+     width: 350px;
+     */
+
+     flex: 1;
+    background-color: #f7f8fa;
+    border: 1px solid lightgray;
+    padding: 15px;
+    height: 80px;
+    width: 400px;
+    margin: 15px 15px 10px 80px;
+    color: #316dc3;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+
+
+}
+
+div.gallery{
+    padding: 70px;
+    margin: 10px auto;
+}
+
+div.pic{
+    /* padding: 10px;
+margin: 10px 5px 20px 5px; */
+
+
+
+    flex-wrap: wrap;
+    
+    margin: 30px auto 130px;
+   
+
+}
+
+div.last{
+    width: 970px;
+    height: 350px;
+    /* padding-bottom: 70px; */
+    background-color: rgb(39, 39, 41);
+    text-align: left;
+    color: white;
+    /* display: flex; */
+     flex-wrap: wrap; 
+     /* justify-content: left;  */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(179, 179, 179);
+    padding: 48px 20px 10px 20px;
+
+}
+
+
+div.contact{
+    margin-left: -49px;
+   /* display: block; */
+    font-size: 14px;
+    width: 390px;
+    margin-right: 30px;
+    margin-bottom: -50px;
+    margin-top: 30px;
+    display: inline;
+     justify-content: space-around; 
+  
+    text-align: end;
+     align-items: flex-end; 
+  
+
+
+}
+
+.usefull{
+    margin-top: -200px;
+    display: flex;
+    margin: -250px 500px 0px 500px;
+    
+}
+
+
+
+ .connect{
+    margin-left: 43px;
+    margin-top: 30px;
+
+
+    
+    margin-bottom: 1rem;
+
+}  
+
+ul.lasticon{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: px;
+    margin-inline-end: -20px;
+    padding-inline-start: 40px;
+    margin-top: 5px;
+
+ }
+   
+
+ ul.picture{
+    /* width: 13px;
+    height: 13px;
+    top: 10px;
+    margin-left: 20px;
+    text-align: -webkit-match-parent;   
+     list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none; 
+ */
+display: -webkit-inline-flex;
+width: 13px;
+height: 13px;
+
+
+
+ }
+
+
+
+ /* .detail{
+     text-align: left;
+     display: inline;
+     list-style: none;
+ } */
+
+
+  
+/* footer */
+
+ div.footer{
+     background-color: royalblue;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: medium;
+     padding: 7px;
+  
+text-align: left; 
+
+}
+
+
+
+footer{
+    display: flex-start;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: left;
+    
+}
